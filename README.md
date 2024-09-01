@@ -71,13 +71,7 @@ curl -X GET http://localhost:8000/branches/ABHY0065001/
    ```
 
 
-3. **Apply Migrations**
-
-   ```sh
-   python manage.py migrate
-   ```
-
-4. **Run the Development Server**
+3. **Run the Development Server**
 
    ```sh
    python manage.py runserver
