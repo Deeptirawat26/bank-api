@@ -31,6 +31,11 @@ This API provides access to information about banks and their branches. Below ar
 - `<ifsc>`: The IFSC code of the branch.  
 **Response**: A JSON object containing detailed information about the specified branch.
 
+## Pre-requisites
+
+Python, Django
+
+
 ## Example Requests
 
 ### 1. List All Banks
@@ -56,7 +61,7 @@ curl -X GET http://localhost:8000/branches/ABHY0065001/
 1. **Clone the Repository**
 
    ```sh
-   git clone [<repository-url>](https://github.com/Deeptirawat26/bank-api)
+   git clone https://github.com/Deeptirawat26/bank-api
    ```
 
 2. **Navigate to the Project Directory**
@@ -80,3 +85,7 @@ curl -X GET http://localhost:8000/branches/ABHY0065001/
 
 The API will be available at `http://localhost:8000/`.
 
+## Extracurricular
+
+**Database**: PostgreSQL
+**Time taken to finish**: A day and a half
