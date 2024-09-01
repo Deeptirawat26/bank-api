@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank API Home</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f6effd; 
+            color: #333;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            color: #000000; 
+            font-size: 2.5em;
+            margin-top: 50px;
+            font-family: Arial, sans-serif;
+        }
+        p {
+            font-size: 1.2em;
+            margin: 20px 0;
+            font-weight: bold;
+        }
+        .info-section {
+            font-family: Arial, sans-serif;
+            background-color: #e6ccff; 
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 800px;
+            text-align: left;
+            box-shadow: 0 4px 8px rgba(71, 71, 71, 0.1);
+        }
+        .info-section h2 {
+            color: #6a0dad;
+            font-size: 1.5em;
+            margin-top: 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to the Bank API Home Page</h1>
+    <p>Here you can find information about banks and branches.</p>
+
+    <div class="info-section">
+        <h2>How to Use the API</h2>
+        <p>1. <strong>/banks/</strong> - List all banks.</p>
+        <p>2. <strong>/banks/&lt;id&gt;/</strong> - Shows only that bank.</p>
+        <p>3. <strong>/branches/&lt;ifsc&gt;/</strong> - Get detailed information about a specific branch, where &lt;ifsc&gt; is the branch's IFSC code.</p>
+    </div>
+</body>
+</html>
